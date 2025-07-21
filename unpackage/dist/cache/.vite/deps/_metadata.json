@@ -1,0 +1,55 @@
+{
+  "hash": "944a27c6",
+  "configHash": "6c157f1b",
+  "lockfileHash": "225e1145",
+  "browserHash": "68fd4cec",
+  "optimized": {
+    "axios": {
+      "src": "../../../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "fb808487",
+      "needsInterop": false
+    },
+    "pdfjs-dist/build/pdf.worker": {
+      "src": "../../../../../node_modules/pdfjs-dist/build/pdf.worker.js",
+      "file": "pdfjs-dist_build_pdf__worker.js",
+      "fileHash": "7b87dcf9",
+      "needsInterop": true
+    },
+    "pdfjs-dist/build/pdf": {
+      "src": "../../../../../node_modules/pdfjs-dist/build/pdf.js",
+      "file": "pdfjs-dist_build_pdf.js",
+      "fileHash": "30cfc051",
+      "needsInterop": true
+    },
+    "pdfjs-dist": {
+      "src": "../../../../../node_modules/pdfjs-dist/build/pdf.js",
+      "file": "pdfjs-dist.js",
+      "fileHash": "b6166cef",
+      "needsInterop": true
+    },
+    "pdfjs-dist/build/pdf.worker.entry.js": {
+      "src": "../../../../../node_modules/pdfjs-dist/build/pdf.worker.entry.js",
+      "file": "pdfjs-dist_build_pdf__worker__entry__js.js",
+      "fileHash": "49758cd5",
+      "needsInterop": true
+    },
+    "pako": {
+      "src": "../../../../../node_modules/pako/index.js",
+      "file": "pako.js",
+      "fileHash": "bb0226ab",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-UEALIAX2": {
+      "file": "chunk-UEALIAX2.js"
+    },
+    "chunk-Y7PXVCLY": {
+      "file": "chunk-Y7PXVCLY.js"
+    },
+    "chunk-34Z2WVG2": {
+      "file": "chunk-34Z2WVG2.js"
+    }
+  }
+}

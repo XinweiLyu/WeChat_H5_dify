@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.5.7",
+    "axios": "^1.9.0",
+    "pdfjs-dist": "^2.5.207",
+    "vue-pdf": "^4.2.0",
+    "vue-router": "^4.5.1"
+  }
+}

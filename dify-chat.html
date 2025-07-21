@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dify Chat</title>
+</head>
+<body>
+  <h1>AI对话</h1>
+  <script>
+    // 获取 URL 参数
+    function getQueryVariable(variable) {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+        if(pair[0] == variable){return decodeURIComponent(pair[1]);}
+      }
+      return('');
+    }
+    var xml = getQueryVariable('xml');
+    window.difyChatbotConfig = {
+      token: '你的token', // 替换为你的 Dify token
+      inputs: {
+        xml: xml
+      }
+    }
+  </script>
+  <script src="https://udify.app/embed.min.js" defer></script>
+</body>
+</html>
